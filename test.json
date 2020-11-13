@@ -45,7 +45,7 @@
     {
       "text": "%pyspark\n\nrdd \u003d sc.parallelize(range(1,10))\nrdd.collect()\n",
       "user": "srihasr@qubole.com",
-      "dateUpdated": "Nov 4, 2020 5:49:10 AM",
+      "dateUpdated": "Nov 4, 2020 5:42:52 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -70,7 +70,7 @@
           "tooltip": "View in Spark web UI",
           "group": "spark",
           "values": [
-            "https://us.qubole.com/cluster-proxy?encodedUrl\u003dhttp%3A%2F%2F10.136.149.18%3A8088%2Fproxy%2Fapplication_1604466974041_0001/jobs/job?spark\u003dtrue\u0026id\u003d4"
+            "https://us.qubole.com/cluster-proxy?encodedUrl\u003dhttp%3A%2F%2F10.136.149.18%3A8088%2Fproxy%2Fapplication_1604466974041_0001/jobs/job?spark\u003dtrue\u0026id\u003d2"
           ],
           "interpreterSettingId": "2FE1NX1VS449141594980805381"
         }
@@ -84,9 +84,9 @@
         "msg": "[1, 2, 3, 4, 5, 6, 7, 8, 9]\n"
       },
       "dateCreated": "Nov 4, 2020 5:35:00 AM",
-      "dateSubmitted": "Nov 4, 2020 5:49:10 AM",
-      "dateStarted": "Nov 4, 2020 5:49:10 AM",
-      "dateFinished": "Nov 4, 2020 5:49:10 AM",
+      "dateSubmitted": "Nov 4, 2020 5:42:52 AM",
+      "dateStarted": "Nov 4, 2020 5:42:52 AM",
+      "dateFinished": "Nov 4, 2020 5:42:52 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 1000
     },
@@ -107,12 +107,7 @@
   ],
   "name": "Gittest",
   "id": "2S9C4TC2TJ1604468006",
-  "angularObjects": {
-    "2FE1NX1VS449141594980805381:shared_process": [],
-    "2FDHUXER3449141594980778423:shared_process": [],
-    "2FDVWURVJ449141594980778422:shared_process": [],
-    "2FCY5ZE6F449141594980778424:shared_process": []
-  },
+  "angularObjects": {},
   "config": {
     "isDashboard": false,
     "defaultLang": "sql"
